@@ -1,0 +1,23 @@
+PODS:
+  - BmobSDK (2.0.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - IQKeyboardManager (4.0.7)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - BmobSDK
+  - FMDB
+  - IQKeyboardManager
+  - MBProgressHUD
+
+SPEC CHECKSUMS:
+  BmobSDK: 315013af15af31697a3b92cad2c74effed849b85
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 45e7baf620615c3cd1ed6faa6f7fe43f71397ee2
+
+COCOAPODS: 1.0.1

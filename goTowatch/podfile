@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+target 'goTowatch' do 
+pod 'IQKeyboardManager'
+pod 'FMDB'
+pod 'BmobSDK'
+pod 'MBProgressHUD'
+end
