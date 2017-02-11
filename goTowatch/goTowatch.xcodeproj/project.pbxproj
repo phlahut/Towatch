@@ -12,6 +12,7 @@
 		C91C80281E4B186900132DD2 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C80271E4B186900132DD2 /* NewsViewController.m */; };
 		C91C802B1E4B1A0400132DD2 /* YXPMBProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C802A1E4B1A0400132DD2 /* YXPMBProgressView.m */; };
 		C92B30711E4C003D0037BEF0 /* ARWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92B30701E4C003D0037BEF0 /* ARWebViewController.m */; };
+		C95D97EC1E4D93BA00AC1749 /* UIActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C95D97EB1E4D93BA00AC1749 /* UIActionView.m */; };
 		C97B750D1E3FA2BA00BF90F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C97B750C1E3FA2BA00BF90F2 /* main.m */; };
 		C97B75101E3FA2BA00BF90F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C97B750F1E3FA2BA00BF90F2 /* AppDelegate.m */; };
 		C97B75161E3FA2BA00BF90F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97B75141E3FA2BA00BF90F2 /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 		C91C802E1E4B1AED00132DD2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C92B306F1E4C003D0037BEF0 /* ARWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARWebViewController.h; sourceTree = "<group>"; };
 		C92B30701E4C003D0037BEF0 /* ARWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARWebViewController.m; sourceTree = "<group>"; };
+		C95D97EA1E4D93BA00AC1749 /* UIActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActionView.h; sourceTree = "<group>"; };
+		C95D97EB1E4D93BA00AC1749 /* UIActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActionView.m; sourceTree = "<group>"; };
 		C97B75081E3FA2BA00BF90F2 /* goTowatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goTowatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97B750C1E3FA2BA00BF90F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C97B750E1E3FA2BA00BF90F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				C91C80291E4B1A0400132DD2 /* YXPMBProgressView.h */,
 				C91C802A1E4B1A0400132DD2 /* YXPMBProgressView.m */,
 				C91C802D1E4B1AD100132DD2 /* Header.h */,
+				C95D97EA1E4D93BA00AC1749 /* UIActionView.h */,
+				C95D97EB1E4D93BA00AC1749 /* UIActionView.m */,
 			);
 			name = capsulationClass;
 			sourceTree = "<group>";
@@ -98,6 +103,13 @@
 				C92B30701E4C003D0037BEF0 /* ARWebViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C95D97E41E4D92EE00AC1749 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		C97B74FF1E3FA2B900BF90F2 = {
@@ -121,6 +133,7 @@
 		C97B750A1E3FA2BA00BF90F2 /* goTowatch */ = {
 			isa = PBXGroup;
 			children = (
+				C95D97E41E4D92EE00AC1749 /* View */,
 				C91C802F1E4B1AF600132DD2 /* ViewController */,
 				C91C802C1E4B1A9700132DD2 /* capsulationClass */,
 				C97B750E1E3FA2BA00BF90F2 /* AppDelegate.h */,
@@ -266,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95D97EC1E4D93BA00AC1749 /* UIActionView.m in Sources */,
 				C91C802B1E4B1A0400132DD2 /* YXPMBProgressView.m in Sources */,
 				C92B30711E4C003D0037BEF0 /* ARWebViewController.m in Sources */,
 				C91C80251E4B175B00132DD2 /* DatabaseUpController.m in Sources */,

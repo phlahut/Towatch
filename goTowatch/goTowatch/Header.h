@@ -8,6 +8,8 @@
 
 #ifndef Header_h
 #define Header_h
-
+#import <BmobSDK/BmobObject.h>
+#import "UIActionView.h"
+#import "YXPMBProgressView.h"
 
 #endif /* Header_h */

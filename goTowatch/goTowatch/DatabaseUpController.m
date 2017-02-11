@@ -19,10 +19,6 @@
     // Do any additional setup after loading the view.
 }
 - (IBAction)upNewContentsData:(id)sender {
-  
-    
-    
-    
     [[YXPMBProgressView progressHUDDefault]progressHUDStart:self.view];
     BmobObject *gameScore = [BmobObject objectWithClassName:@"newContents"];
     [gameScore setObject:@"黄平谷陇大高山  野生杜鹃红似火" forKey:@"title"];
