@@ -1,0 +1,37 @@
+/* pages/newsContent/newsContent.wxss */
+@import "../../hud/hud.wxss";
+.allView{
+    display: flex;
+     flex-direction: column;
+     
+     text-align:center;
+}
+.secondView{
+     display: flex;
+   flex-direction:row;  
+   margin: 0pt 10rpx 20pt 10rpx;
+   color: #9B9B9B;
+   font-size: 10pt;
+   justify-content:space-between;
+}
+.contentImg{
+
+}
+.titleView{
+     display: block;
+    margin: 20pt 0 20pt 0;
+      font-size: 20pt;
+       color: #353535;
+}
+.titleName{
+  
+}
+.contentView{
+ margin: 10pt 10rpx 10pt 10rpx;
+ font-size: 12pt;
+}
+.lastView{
+   margin: 20pt 10rpx 10pt 10rpx;
+ font-size: 10pt;
+  color: #9B9B9B; 
+}

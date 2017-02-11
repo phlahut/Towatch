@@ -1,0 +1,92 @@
+.view{
+  display: flex;
+  flex-direction: column;
+}
+.heardView{
+    margin-top: 8pt;
+    width: 100%;
+    height: 30rpx;
+    display: flex;
+    /*background:#4A4A4A; */
+    color: #2769B0;
+    flex-direction: row;
+     justify-content:space-between;
+      font-size:16px;
+}
+.left{
+  margin-left: 25rpx;
+  
+}
+.right{
+  margin-right: 85rpx;  
+}
+.second{
+    height: 30pt;
+    color: #4A4A4A;
+}
+.leftDetail{
+width: 35%;
+margin-left: 25rpx;
+text-align: left;
+}
+.rightDetail{
+width: 35%;
+margin-right: 25rpx;
+text-align: right;
+}
+.bgView{
+    margin-top: 5pt;
+    background: #D8D8D8;
+    color: #4A4A4A;
+    display: block;
+    font-size:16px;
+}
+.titleName{
+    padding: 25rpx 0rpx 25rpx 25rpx;
+     color: #2769B0;
+}
+.radiusView{
+  
+border-radius:5px;
+background: #ffffff;
+font-size:13px;
+ text-align: right;
+}
+.firstCell{
+    margin-left: 25rpx;
+    margin-right: 25rpx;
+    height: 10pt;
+    padding: 10pt 25rpx 8pt 25rpx;
+}
+.secondCell{
+     margin-left: 25rpx;
+    margin-right: 25rpx;
+    /*height: 10pt;*/
+    padding: 10pt 25rpx 10pt 25rpx;
+
+ text-align: left;   
+}
+.thirdCell{
+   margin-left: 25rpx;
+    margin-right: 25rpx;
+ text-align: left; 
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
+.thirdCellText{
+   padding: 10pt 25rpx 10pt 25rpx;  
+   color: #4A4A4A;
+}
+.thirdCellimage{
+    margin-top: 5pt;
+    margin-right: 10rpx;
+    height: 25px;
+    width: 17px;
+
+}
+.lastView{
+    height: 100pt;
+    background: #D8D8D8;
+}

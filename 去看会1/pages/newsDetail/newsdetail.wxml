@@ -1,0 +1,32 @@
+<!--pages/newsDetail/newsdetail.wxml-->
+<view style=" background-color: #FFFFFF">
+<!--<view style="margin-top:0">-->
+    <swiper indicator-dots="true" autoplay="true" circular="true" >
+        <swiper-item wx:for="{{imgList}}" wx:for-index="i"><image src="{{imgList[i].imgurl}}"></image>{{i}}</swiper-item>
+    </swiper>
+     <!--</view>-->
+    <view class="heardView">
+    <view class="left">当地天气情况：</view>
+     <view class="right">起止日期：</view>
+    </view>
+      <view class="heardView second">
+    <view class="leftDetail">{{todayWether}}</view>
+     <view class="rightDetail">2017年02月3日~2017年02月5日</view>
+    </view>
+    <view class="bgView">
+    <view class="titleName">奖项：</view>
+    <view class="radiusView firstCell">A组:第一名:5000元；第二名:3000元；第三名:1000元</view>
+     <view class="titleName">参赛注意事项：</view>
+     <view class="radiusView secondCell">A组:限胸围2.15米（含）以下，
+     年龄不限B组:限胸围2.15米(含)以下，草箍以下为B组</view>
+      <view class="titleName">报名热线：</view>
+     <view class="radiusView secondCell">0855-1111111 或 131998000212</view>
+      <view class="titleName">详情地址：</view>
+       <view class="radiusView thirdCell" bindtap="addressTab">
+       <view class="thirdCellText">贵州省黄平县谷陇镇斑鸠村</view>
+       <image src="/images/右标.png" class="thirdCellimage" mode="aspectFill"></image>
+       </view>
+    </view>
+    <view class="lastView"></view>
+</view>
+

@@ -1,0 +1,29 @@
+{"pages": [
+  "pages/firstpage/firstpage",
+   "pages/toWatch/toWatch",
+   "pages/newsDetail/newsdetail",
+   "pages/mapView/mapView",
+    "pages/newsContent/newsContent"
+
+],"window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3182d9",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"while"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/firstpage/firstpage",
+      "text": "首页",
+      "iconPath": "images/牛_未选中.png",
+      "selectedIconPath": "images/牛_选中.png"
+    },{
+      "pagePath": "pages/toWatch/toWatch",
+      "text": "会场",
+      "iconPath": "images/分会场_未选中.png",
+      "selectedIconPath": "images/分会场_选中.png"
+    }
+    ]
+  }
+  
+  }

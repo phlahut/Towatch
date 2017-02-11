@@ -1,0 +1,56 @@
+/* pages/firstpage/firstpage.wxss */
+@import "../../hud/hud.wxss";
+.first-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    padding-bottom: 5px;
+}
+.promulgatorAndData{
+    /*上 右 下 左*/
+    margin: 30rpx 0px 30rpx 30rpx;
+}
+.promulgator{
+    width: 40px;
+    height:40px;
+    vertical-align: middle;
+    border-radius:20px;
+    }
+.promulgatDate{
+    margin-left: 20px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    font-size: 26rpx;
+}
+.promulgatFrom{
+     vertical-align: middle;
+      font-size: 26rpx;
+       margin-bottom: 5px;
+       margin-left: 130rpx;
+}
+.titleView{
+    margin: 0 0 15px 30rpx;
+}
+.cellTitle{
+    font-size: 36rpx;
+    font-weight: 600;
+    color: #353535;
+}
+.contentImage{
+    margin-top: 30rpx;
+    width: 100%;
+    height: 180px;
+    margin: auto 0;
+    margin-bottom: 15px;
+}
+.contentTextView{
+margin:0 30rpx 15px 30rpx;
+}
+.contentText{
+color: #999999;
+font-size: 26rpx;
+}

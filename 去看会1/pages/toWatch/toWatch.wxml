@@ -1,0 +1,29 @@
+
+<view class="top-tab flex-wrp flex-tab">
+  <view class="toptab flex-item {{currentNavtab==idx ? 'active' : ''}}" wx:for="{{navTab}}" wx:for-index="idx" wx:for-item="itemName" data-idx="{{idx}}" bindtap="switchTab">
+    {{itemName}}
+  </view>
+</view>
+<scroll-view scroll-y="true" class="container notify withtab" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="5" scroll-top="120">
+ <view class="notify-item flex-wrp" wx:for="{{items}}" wx:for-index="idx" wx:for-item="itemName" data-idx="{{idx}}" bindtap="clickCell">
+      <view class="avatar flex-item">
+        <image src="/images/Rectangle.png"></image>
+      </view>
+      <view class="notify-content flex-item">
+        <text class="notify-source">去凯里斗牛城看“全国牛王争霸赛”吧</text>
+        <view class="title-item">
+          <text >总奖金:</text>
+           <view  class="money-num">
+          <text>￥2000.00</text>
+         </view>
+        </view>
+         <view class="title-item">
+          <text >地址:</text>
+           <view  class="address-detail">
+          <text>凯里苗侗风情园</text>
+         </view>
+        </view>
+       
+      </view>
+    </view>
+</scroll-view>

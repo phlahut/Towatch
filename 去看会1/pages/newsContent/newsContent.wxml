@@ -1,0 +1,12 @@
+<!--pages/newsContent/newsContent.wxml-->
+<import src="../../hud/hud.wxml" />
+<template is="isHUD" data="{{...hud.infos}}"/>
+<view class="allView">
+<view class="titleView"><text class="titleName">{{contents.title}}</text></view>
+<view class="secondView"><view>{{contents.newstime}}</view> <view>来源:{{contents.from}}</view></view>
+        <view wx:for="{{contents.newsImg}}" wx:for-index="i">
+        <image class="contentImg" src="{{contents.imgHttpUrl}}{{contents.newsImg[i]}}"></image>
+        <view class="contentView"><text>{{contents.content[i]}}</text></view>
+</view>
+<view class="lastView">本页面由本人采用网络爬虫数据抓取,对原始内容进行重新排版，未修改原始内容</view>
+</view>

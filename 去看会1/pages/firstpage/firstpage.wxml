@@ -1,0 +1,21 @@
+<!--pages/firstpage/firstpage.wxml-->
+<import src="../../hud/hud.wxml" />
+<template is="isHUD" data="{{...hud.infos}}"/>
+<view style=" background-color: #E5E5E5">
+    <swiper indicator-dots="true" autoplay="true" circular="true">
+        <swiper-item wx:for="{{imgList}}" wx:for-index="i" id="{{i}}" bindtap="clickSwiper"><image src="{{imgList[i].imgurl}}"></image>{{i}}</swiper-item>
+
+    </swiper>
+    <view class="first-container" wx:for="{{diaryList}}" wx:for-index="i" bindtap="newsContent">
+        <view>
+          <view class="promulgatorAndData">
+            <image class="promulgator" src="{{diaryList[i].userHearimg}}"></image>
+            <text class="promulgatDate">{{ diaryList[i].newstime }}</text>
+             <text class="promulgatFrom">来源:{{ diaryList[i].from }}</text>
+            </view>
+           <view class="titleView"> <text class="cellTitle">{{ diaryList[i].title}}</text></view>
+            <image class="contentImage" src="{{ diaryList[i].imgUrl}}"></image>
+            <view class="contentTextView"><text class="contentText">{{ diaryList[i].content}}</text></view>
+        </view>
+     </view>
+</view>
